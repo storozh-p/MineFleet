@@ -2,7 +2,11 @@ servers = {
     "HiTech": {}
 }
 
+debug_mode = False
+
 db_host = ""
 db_user = ""
 db_pass = ""
 db_name = ""
+
+user_table = ""

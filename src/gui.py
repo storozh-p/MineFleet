@@ -32,4 +32,4 @@ class MineFleetGUI:
         self.root.mainloop()
 
     def start_minecraft(self):
-        utils.start_minecraft(nickname=self.nickname_input.get(), password=self.password_input.get(), selected_server=self.server_selector.get(), servers_list=self.servers)
+        utils.start_minecraft(root=self.root, nickname=self.nickname_input.get(), password=self.password_input.get(), selected_server=self.server_selector.get(), servers_list=self.servers)
