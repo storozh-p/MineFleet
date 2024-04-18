@@ -1,5 +1,6 @@
 # Project files
 src/config.py
+logs/
 
 # User-specific stuff
 .idea/**/workspace.xml
