@@ -1,12 +1,19 @@
+import minecraft_launcher_lib.utils
+
 servers = {
-    "HiTech": {}
+    "HiTech": {
+        "version": "1.12.2-forge-14.23.5.2860",
+        "url": "https://url.com/HiTech.zip"
+    }
 }
+
+minecraft_dir = minecraft_launcher_lib.utils.get_minecraft_directory().replace("minecraft", "MineFleet")
 
 debug_mode = False
 
-db_host = ""
-db_user = ""
+db_host = "127.0.0.1"
+db_user = "root"
 db_pass = ""
 db_name = ""
 
-user_table = ""
+user_table = "users"
